@@ -1,0 +1,30 @@
+nav {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // background-color: #333;
+    // padding: 1rem;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 1rem;
+    
+  }
+  
+  nav a {
+    color: #555454;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+
+
+    
+  
+    &:hover {
+      border: 2px solid #555454
+      
+      //border-color: #6b6a6a; /* Change to your desired hover color */
+    }
+  }

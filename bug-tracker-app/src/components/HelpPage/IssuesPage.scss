@@ -1,0 +1,43 @@
+.issues-page {
+    padding: 20px;
+  }
+  
+  .issues-list {
+    margin-top: 20px;
+  }
+  
+  .issue-item {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .issue-title {
+    font-weight: bold;
+  }
+  
+  .issue-priority {
+    color: #777;
+  }
+  
+  .issue-description {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .issue-description h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .issue-description p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  

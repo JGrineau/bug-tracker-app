@@ -1,0 +1,59 @@
+
+
+
+    .help-page {
+        //background-color: aqua;
+        h1{
+            color: #333;
+        }
+        h2{
+            color: #585757;
+        }
+
+        aside{
+           
+            margin-top: 3rem;
+            border: solid 1px  #e5e5e5;
+            width: 200px;
+              
+        a {
+            display: block;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            color: black;
+            padding: 1rem;
+            border-top: solid 1px  #807c7c;
+
+           &.active{
+            background-color: #333;
+            color: #fff;
+            
+           }
+
+            &:hover {
+                color: green;
+            }
+        }
+     }
+
+     @media screen  and (max-width: 425px){
+        
+        .help-page{
+            display: flex;
+            align-items: flex-start;
+        }
+
+        article{
+            flex: 1;
+        }
+
+        aside {
+            width: 200px;
+            margin-left: 4rem;
+            margin-top: 0;
+        }
+     }
+
+
+    }
